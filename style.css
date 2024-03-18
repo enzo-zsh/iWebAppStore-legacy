@@ -58,3 +58,87 @@ body {
 
 }
 
+/* apps css */
+.dock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1c1c1cb3; */
+    padding: 8px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 445px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+    .app_cell_left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .appicon {
+        border-radius: 15px;
+        background-color: #000;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    .app_cell_meta {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 0.2rem;
+}
+
+    .appname,
+    .appsection {
+        width: 170px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: black;
+         width: 150px;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+    }
+
+    .appsection {
+        color: black;
+        opacity: .6;
+        font-size: .900rem;
+        width: 161px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+.appget {
+    background-color: #3478F6;
+    border-radius: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 67px;
+    height: 30px;
+    object-fit: cover;
+    color: white;
+    align-items: center;
+}
+
+.appget a {
+    margin-bottom: 2px;
+}
+
+.getbtn {
+    background-color: transparent;
+    border: none;
+    font-weight: 750;
+    color: white;
+}
+
+
