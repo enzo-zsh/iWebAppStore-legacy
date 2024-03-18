@@ -35,30 +35,6 @@ body {
     padding: 20px;
 }
 
-/*.subcontent {
-    padding: 10px;
-}*/
-
-.navbar {
-    background-color: #f7f7f7; /* Light gray color */
-    color: #333; /* Dark gray text color */
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 0;
-    border-top: 1px solid #ddd; /* Gray border on top */
-}
-
-.navbar a {
-    color: #007AFF; /* Blue color for links */
-    text-decoration: none;
-    margin: 0 10px;
-
-}
-
-/* apps css */
 .dock {
     display: flex;
     justify-content: space-between;
@@ -141,4 +117,26 @@ body {
     color: white;
 }
 
+/*.subcontent {
+    padding: 10px;
+}*/
+
+.navbar {
+    background-color: #f7f7f7; /* Light gray color */
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #ddd; /* Gray border on top */
+}
+
+.navbar a {
+    color: #007AFF; /* Blue color for links */
+    text-decoration: none;
+    margin: 0 10px;
+
+}
 
