@@ -14,9 +14,6 @@ The legacy version of iWebAppStore for old iDevices.
  - 100% free | No-ads | Write in pure HTML and CSS (no JS, no PHP)
  - A big repository of PWA for iOS (AppStore, Tools, ...)
  - A clear and minimalist UI/UX
- ## WebClips
- 
- All iOS WebClips was made with iConfig : https://s0n1c.ca/iconfig/
  
  ## Link to try-it
  
