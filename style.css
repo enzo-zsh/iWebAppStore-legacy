@@ -39,17 +39,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #1c1c1cb3; */
     padding: 8px;
     border-radius: 20px;
-    width: 100%;
-    max-width: 445px;
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-left: 5px;
 }
-
     .app_cell_left {
         display: flex;
         align-items: center;
@@ -73,11 +69,10 @@ body {
 
     .appname,
     .appsection {
-        width: 170px;
         white-space: nowrap;
         text-overflow: ellipsis;
         color: black;
-         width: 150px;
+         width: 190px;
          white-space: nowrap;
          overflow: hidden;
          text-overflow: ellipsis;
@@ -87,7 +82,7 @@ body {
         color: black;
         opacity: .6;
         font-size: .900rem;
-        width: 161px;
+        width: 190px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -140,3 +135,37 @@ body {
 
 }
 
+
+.add_to_homescreen {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  align-item: center;
+}
+.add_to_homescreen_icon {
+  background-image: url(https://raw.githubusercontent.com/Enzo-zsh/iWebAppStore-legacy/main/app.png);
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border: none;
+  margin-bottom: 15px;
+}
+.add_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.web_btn {
+  padding: 20px;
+  border: 2px black solid;
+  width: 140px;
+  border-radius: 20px;
+}
+.web_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    cursor: pointer;
+}
