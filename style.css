@@ -32,20 +32,21 @@ body {
 }
 
 .content {
-    padding: 20px;
+    padding: 10px;
 }
 
 .dock {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-left: 5px;
 }
+
     .app_cell_left {
         display: flex;
         align-items: center;
@@ -135,14 +136,14 @@ body {
 
 }
 
-
 .add_to_homescreen {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 20px;
   text-align: center;
-  align-item: center;
+  align-items: center;
 }
+
 .add_to_homescreen_icon {
   background-image: url(https://raw.githubusercontent.com/Enzo-zsh/iWebAppStore-legacy/main/app.png);
   width: 80px;
@@ -151,17 +152,20 @@ body {
   border: none;
   margin-bottom: 15px;
 }
+
 .add_title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .web_btn {
   padding: 20px;
   border: 2px black solid;
   width: 140px;
   border-radius: 20px;
 }
+
 .web_container {
     display: flex;
     justify-content: center;

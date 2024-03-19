@@ -9,18 +9,16 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
-<div class="add_to_homescreen">
-  <img class="add_to_homescreen_icon"></img>
-  <div class="add_to_homescreen_text">
-    <div class="add_title">Add iWebAppStore to the homescren</div>
-    <div class="add_paragraph">Please add iWebAppStore Legacy to the homescreen for a better user experience.</div>
+  <div class="add_to_homescreen">
+    <img class="add_to_homescreen_icon"></img>
+    <div class="add_to_homescreen_text">
+      <div class="add_title">Add iWebAppStore to the homescren</div>
+      <div class="add_paragraph">Please add iWebAppStore Legacy to the homescreen for a better user experience.</div>
+    </div>
+  <div class="web_container">
+  <div class="web_btn">Use on the web</div>
   </div>
-<div class="web_container">
-<div class="web_btn">Use on the web</div>
-</div>
-</div>
-    
+  </div>  
     <div class="header">
         <h1>Welcome back on</h1>
         <h2>iWebAppStore Legacy.</h2>
@@ -86,6 +84,18 @@
 </a>
         </div>
       </div>
+    <div class="dock">
+        <div class="app_cell_left">
+          <img src="https://github.com/Enzo-zsh/iWebAppStore-legacy/blob/main/pwa-icons/blank.png?raw=true" class="appicon">
+          <div class="app_cell_meta">
+            <div class="appname">AppName</div>
+            <div class="appsection">Lorem ipsum sit amen</div>
+          </div>
+        </div>
+        <div class="appget">
+<a href="https://github.com">
+          <button class="getbtn" id="getbtn">GO</button>
+</a>
 
     <div class="navbar">
         <a href="#home">Home</a>
@@ -93,10 +103,10 @@
     </div>
 </body>
 <script>
-      if (!window.matchMedia('(display-mode: standalone)').matches) {
-    // Afficher la div "add_to_homescreen"
-    document.getElementById('add_to_homescreen').style.display = 'block';
-  }
+  if (!window.matchMedia('(display-mode: standalone)').matches) {
+// Afficher la div "add_to_homescreen"
+document.getElementById('add_to_homescreen').style.display = 'block';
+}
 </script>
 </html>
 
