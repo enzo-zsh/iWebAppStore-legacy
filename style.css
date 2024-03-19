@@ -39,11 +39,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #1c1c1cb3; */
     padding: 8px;
     border-radius: 20px;
-    width: 100%;
-    max-width: 445px;
     margin-right: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -140,3 +137,45 @@ body {
 
 }
 
+.add_to_homescreen {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
+  position: fixed; /* Position fixée pour qu'elle reste au milieu même en faisant défiler la page */
+  top: 50%; /* Alignement vertical au milieu de la fenêtre */
+  left: 50%; /* Alignement horizontal au milieu de la fenêtre */
+  transform: translate(-50%, -50%); /* Décalage de moitié de la largeur et de la hauteur de l'élément pour le placer au milieu */
+  z-index: 9999; /* Pour s'assurer que la pop-up apparaît par-dessus le reste du contenu */
+}
+
+.add_to_homescreen_icon {
+  background-image: url(https://raw.githubusercontent.com/Enzo-zsh/iWebAppStore-legacy/main/app.png);
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.add_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.web_btn {
+  padding: 20px;
+  border: 2px black solid;
+  width: 140px;
+  border-radius: 20px;
+}
+
+.web_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
