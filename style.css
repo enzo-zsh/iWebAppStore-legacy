@@ -139,6 +139,7 @@ body {
 .add_to_homescreen {
   background-color: #f0f0f0;
   padding: 20px;
+  display: none;
   border-radius: 20px;
   text-align: center;
   align-items: center;
