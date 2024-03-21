@@ -1,1 +1,15 @@
-{"name":"iWebAppStore-legacy","short_name":"iWebAppStore Legacy","start_url":"https://enzo-zsh.github.io/iWebAppStore-legacy/","id":"https://enzo-zsh.github.io/iWebAppStore-legacy/","display":"standalone","background_color":"#f7f7f7","theme_color":"#f7f7f7","icons":[{"src":"https://github.com/Enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true","sizes":"256x256"}]}
+{
+    "name": "iWebAppStore-legacy",
+    "short_name": "iWebAppStore Legacy",
+    "start_url": "https://enzo-zsh.github.io/iWebAppStore-legacy/",
+    "id": "https://enzo-zsh.github.io/iWebAppStore-legacy/",
+    "display": "standalone",
+    "background_color": "#f7f7f7",
+    "theme_color": "#f7f7f7",
+    "icons": [
+        {
+            "src": "https://github.com/Enzo-zsh/iWebAppStore-legacy/blob/main/icon.png?raw=true",
+            "sizes": "256x256"
+        }
+    ]
+}
